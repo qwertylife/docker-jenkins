@@ -1,2 +1,2 @@
-FROM httpd
-COPY ./index.html/ /usr/local/apache2/htdocs/
+FROM tomcat
+COPY /var/jenkins/workspace/docker-jenkins/var/jenkins/workspace/docker-jenkins/target/ /usr/local/tomcat/webapps/
